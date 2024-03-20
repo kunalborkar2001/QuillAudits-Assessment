@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import img1 from "../../assets/img1.svg"
 import img2 from "../../assets/img2.svg"
 import card from "../../assets/card.svg"
+import card2 from "../../assets/card2.svg"
 
 const ContentOne = () => {
     useEffect(() => {
@@ -359,8 +360,9 @@ const ContentOne = () => {
                     CDP reinforces platform security, bolstering user trust.
                 </p>
 
-                <div>
-                    <img src={card} alt="" />
+                <div className='flex justify-center'>
+                    <img className='hidden sm:block' src={card} alt="kunalborkar2001@gmial.com" />
+                    <img className='sm:hidden' src={card2} alt="kunalborkar2001@gmial.com" />
                 </div>
 
             </div>
