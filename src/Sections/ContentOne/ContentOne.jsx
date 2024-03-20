@@ -1,4 +1,6 @@
 import React from 'react'
+import img1 from "../../assets/img1.svg"
+import img2 from "../../assets/img2.svg"
 
 const ContentOne = () => {
     return (
@@ -29,8 +31,58 @@ const ContentOne = () => {
                     forward-thinking pension scheme, one simply needs to install and <br />
                     configure a blockchain wallet.
                 </p>
+                <img
+                    src={img1}
+                    alt="kunalborkar2001@gmail.com"
+                    className='sm:w-[500px] w-full sm:p-0 px-2'
+                />
+
+
+
+                <div className='flex flex-col items-center gap-9 '>
+                    <h1 className='font-bold text-[1.6rem]'>
+                        CarpeDiem Pension's Challenges: <br />
+                        Enhancing Security Against Reentrancy, <br />
+                        Front-Running, and Infinite Minting
+                    </h1>
+                    <p>
+                        CarpeDiem Pension confronts critical security challenges, including <br />
+                        the risks of reentrancy and front-running exploits.Malicious <br />
+                        actors may exploit contract vulnerabilities, withdrawing excess <br />
+                        funds or manipulating transaction timing for unfair advantages. <br />
+                        System faces infinite minting threats, risking economic <br />
+                        stability with endless creation of CDP tokens or pension shares.  <br />
+                        Addressing these challenges is paramount to safeguarding <br />
+                        the integrity and security of CarpeDiem Pension.
+                    </p>
+
+                    <img
+                        src={img2}
+                        alt="kunalborkar2001@gmail.com"
+                        className='sm:w-[500px] w-full sm:p-0 px-2'
+                    />
+                </div>
+
+
+                <div className='flex flex-col items-center gap-9 '>
+                    <h1 className='font-bold text-[1.6rem]'>
+                        CarpeDiem Pension's Journey Through <br />
+                        our Audit Process
+                    </h1>
+
+                    
+
+                </div>
+
+
+
+
             </div>
-            <div className='h-[150px] w-[342px] border sm:flex flex-col pl-4 gap-4 justify-center rounded-md border-purple-900 hidden '  style={{ boxShadow : "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
+
+
+
+            {/* Company location */}
+            <div className='h-[150px] w-[342px] border sm:flex flex-col pl-4 gap-4 justify-center rounded-md border-purple-900 hidden ' style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
                 <div>
                     <p className='text-[gray]'>Headquarters</p>
                     <p className='font-medium'>Switzerland</p>
