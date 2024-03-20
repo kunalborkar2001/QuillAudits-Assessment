@@ -9,7 +9,7 @@ const Landing = () => {
     return (
         <div className='bg-gradient-to-r from-[#232f74] to-[#091039]'>
             <Navbar />
-            <div className=' container mx-auto flex border mt-20 text-white flex-col  sm:flex-row'>
+            <div className='container mx-auto flex  mt-20 text-white flex-col  sm:flex-row'>
                 <div className=' w-full h-[520px]  sm:w-[555px] bg-gradient-to-r from-black to-[#116211] flex items-center justify-center mx-auto'>
                     <div className='flex  w-full items-center justify-center flex-col relative h-full'>
                         <img
@@ -33,7 +33,7 @@ const Landing = () => {
                     <p className='text-[gray] text-[1.2rem] mt-2'>QuillAudits enhances Carpe Diem Pension by <br />addressing 33 vulnerabilities on the Pulse blockchain,<br /> boosting security and user trust in digital pensions.</p>
                 </div>
             </div>
-            <div className='container mx-auto w-full border my-5 py-5'>
+            <div className='container mx-auto w-full  my-5 py-5'>
                 <BreadCrumbs />
             </div>
         </div>
