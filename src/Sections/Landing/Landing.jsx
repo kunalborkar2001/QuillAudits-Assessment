@@ -11,6 +11,7 @@ const Landing = () => {
             <Navbar />
             <div className='container mx-auto flex  mt-20 text-white flex-col  sm:flex-row'>
                 <div className=' w-full h-[520px]  sm:w-[555px] bg-gradient-to-r from-black to-[#116211] flex items-center justify-center mx-auto'>
+
                     <div className='flex  w-full items-center justify-center flex-col relative h-full'>
                         <img
                             src="https://s3-alpha-sig.figma.com/img/7f05/53d8/7f3ddcce107256b4e74af14e8104b759?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X~NfvQWNdnbw8Poh~bWDc3vWO5SgEf9jWnyQ64qWI-~LZOha2pjIbvQQTyDUsBnUw8uRHfDd5bG~YQW3mKUx5xdFEP-hZJbfP-6N8OT282l4H8xmG9Fx-9LmjP3gSsSaLncq2Gh5bgPw113KxnpGpA2Sgxp53QLQW00L6xPA2f9GaLVbcJ4NN7Qh9p~TAqUOPsGeBni-R9rxR3XBAic77z-~1KcRJHtOXtEG8AW3~FkkQY4c3wbdWxTYTDIErUhTDp2zCETWKorXwK3wK5jKdjlYC22QLUwylPV~iRQi9nOITpVv7fI~1I3djqBQ4p5qcqIxv5B6DQDv41k8utBQ~A__"

@@ -48,7 +48,7 @@ const ContentOne = () => {
                 <img
                     src={img1}
                     alt="kunalborkar2001@gmail.com"
-                    className='sm:w-[500px] w-full sm:p-0 px-2'
+                    className='md:w-[500px] w-full sm:p-0 px-2'
                 />
 
 
@@ -318,39 +318,41 @@ const ContentOne = () => {
                 </div>
 
                 {/* Twitter Post  */}
-                <blockquote className="twitter-tweet">
-                    <p lang="en" dir="ltr">Our smart contracts have been thoroughly audited by
-                        <a href="https://twitter.com/QuillAudits?ref_src=twsrc%5Etfw">@QuillAudits</a>
-                        ! They&#39;ve done an amazing job once again!<a href="https://t.co/R3vifYLirW">
-                            https://t.co/R3vifYLirW
+                <div className='border w-[442px] mx-auto sm:mx-0'>
+                    <blockquote className="twitter-tweet w-[300px]">
+                        <p lang="en" dir="ltr">Our smart contracts have been thoroughly audited by
+                            <a href="https://twitter.com/QuillAudits?ref_src=twsrc%5Etfw">@QuillAudits</a>
+                            ! They&#39;ve done an amazing job once again!<a href="https://t.co/R3vifYLirW">
+                                https://t.co/R3vifYLirW
+                            </a>
+                            <br />
+                            <br />
+                            Follow them to learn more about
+                            <a href="https://twitter.com/hashtag/Blockchain?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #Blockchain</a>
+                            <a href="https://twitter.com/hashtag/Security?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #Security</a>
+                            !
+                            <br />
+                            <br />🌐 Links in thread 🧵
+                            <a href="https://twitter.com/hashtag/Pulsechain?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #Pulsechain</a>
+                            <a href="https://twitter.com/hashtag/Pension?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #Pension</a>
+                            <a href="https://twitter.com/hashtag/CarpeDiem?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #CarpeDiem</a>
+                            <a href="https://twitter.com/hashtag/Audit?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #Audit</a>
+                            <a href="https://twitter.com/hashtag/DeFi?src=hash&amp;ref_src=twsrc%5Etfw">
+                                #DeFi</a>
+                            <a href="https://t.co/ejxok7AqzJ">pic.twitter.com/ejxok7AqzJ
+                            </a>
+                        </p>&mdash; Carpe Diem (@CarpeDiemCDP)
+                        <a href="https://twitter.com/CarpeDiemCDP/status/1742906560794296402?ref_src=twsrc%5Etfw">
+                            January 4, 2024
                         </a>
-                        <br />
-                        <br />
-                        Follow them to learn more about
-                        <a href="https://twitter.com/hashtag/Blockchain?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #Blockchain</a>
-                        <a href="https://twitter.com/hashtag/Security?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #Security</a>
-                        !
-                        <br />
-                        <br />🌐 Links in thread 🧵
-                        <a href="https://twitter.com/hashtag/Pulsechain?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #Pulsechain</a>
-                        <a href="https://twitter.com/hashtag/Pension?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #Pension</a>
-                        <a href="https://twitter.com/hashtag/CarpeDiem?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #CarpeDiem</a>
-                        <a href="https://twitter.com/hashtag/Audit?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #Audit</a>
-                        <a href="https://twitter.com/hashtag/DeFi?src=hash&amp;ref_src=twsrc%5Etfw">
-                            #DeFi</a>
-                        <a href="https://t.co/ejxok7AqzJ">pic.twitter.com/ejxok7AqzJ
-                        </a>
-                    </p>&mdash; Carpe Diem (@CarpeDiemCDP)
-                    <a href="https://twitter.com/CarpeDiemCDP/status/1742906560794296402?ref_src=twsrc%5Etfw">
-                        January 4, 2024
-                    </a>
-                </blockquote>
+                    </blockquote>
+                </div>
 
                 <p>
                     CDP smart contract audit revealed and fixed critical vulnerabilities, <br />
@@ -370,7 +372,7 @@ const ContentOne = () => {
 
 
             {/* Company location */}
-            <div className='h-[150px] w-[342px] border sm:flex flex-col pl-4 gap-4 justify-center rounded-md border-purple-900 hidden ' style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
+            <div className='h-[150px] w-[342px] border md:flex flex-col pl-4 gap-4 justify-center rounded-md border-purple-900 hidden ' style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
                 <div>
                     <p className='text-[gray]'>Headquarters</p>
                     <p className='font-medium'>Switzerland</p>
