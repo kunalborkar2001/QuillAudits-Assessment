@@ -11,26 +11,12 @@ const Landing = () => {
     useGSAP(() => {
         // gsap code here...
         gsap.from(".landingAnimate", { x: 360, duration: 2 }); // <-- automatically reverted
-        gsap.to(".landingAnimate", { x: 0 }); // <-- automatically reverted
+        
+
+        gsap.from(".miniImg" , {rotate : 30, repeat: -1, duration : 10})
 
     }, {});
 
-
-
-    // useEffect(() => {
-    //     gsap.from("", {
-    //         y: 500,
-    //         x: 100,
-    //         duration: 1
-    //     });
-    //     gsap.to(".landingAnimate", {
-    //         rotate: 0,
-    //         y: 0,
-    //         x: 0,
-    //         duration: 1,
-
-    //     });
-    // }, []);
 
     return (
         <div className='bg-gradient-to-r from-[#232f74] to-[#091039]'>
@@ -47,7 +33,7 @@ const Landing = () => {
                         <p className='absolute bottom-3 left-8  text-gray-300 hidden md:block'>
                             Carpe Diem Pension, a blockchain-based <br /> retirement fund, offers permanent <br /> payouts through CDP deposits, with a <br />4.32% annual inflation claimable by <br /> depositors.
                         </p>
-                        <div className='h-[50px] w-[152px] border absolute bottom-[-20px] right-12 md:right-[-50px] md:top-[15%] bg-white rounded-md'>
+                        <div className='h-[50px] w-[152px] border absolute bottom-[-20px] right-12 md:right-[-50px] md:top-[15%] bg-white rounded-md miniImg'>
                             <img
                                 src={miniImg}
                                 alt="kunalborkar2001@gmail.com"
