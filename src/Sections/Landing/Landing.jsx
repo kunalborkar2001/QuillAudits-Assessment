@@ -11,9 +11,9 @@ const Landing = () => {
     useGSAP(() => {
         // gsap code here...
         gsap.from(".landingAnimate", { x: 360, duration: 2 }); // <-- automatically reverted
-        
 
-        gsap.from(".miniImg" , {rotate : 30, repeat: -1, duration : 10})
+
+        gsap.from(".miniImg", { rotate: 30, duration: 10 })
 
     }, {});
 
