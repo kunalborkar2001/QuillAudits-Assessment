@@ -318,7 +318,7 @@ const ContentOne = () => {
                 </div>
 
                 {/* Twitter Post  */}
-                <div className='w-[430px] mx-auto sm:mx-0'>
+                <div className='w-[380px] mx-auto sm:mx-0'>
                     <blockquote className="twitter-tweet w-[300px]">
                         <p lang="en" dir="ltr">Our smart contracts have been thoroughly audited by
                             <a href="https://twitter.com/QuillAudits?ref_src=twsrc%5Etfw">@QuillAudits</a>
