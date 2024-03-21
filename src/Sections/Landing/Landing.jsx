@@ -29,7 +29,7 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' h-[50vh]  flex justify-center ml-3 flex-col p-2'>
+                <div className='flex justify-center ml-3 flex-col p-2 sm:mt-0 mt-[50px]'>
                     <h1 className='text-[2.5rem] '>Securing Trust : Boosting <br /> Security and Strengthening <br /> Trust at Carpe Diem Pension</h1>
                     <p className='text-[gray] text-[1.2rem] mt-2'>QuillAudits enhances Carpe Diem Pension by <br />addressing 33 vulnerabilities on the Pulse blockchain,<br /> boosting security and user trust in digital pensions.</p>
                 </div>
