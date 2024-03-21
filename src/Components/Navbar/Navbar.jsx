@@ -6,7 +6,7 @@ import NavDrawer from "../NavDrawer/NavDrawer"
 const Navbar = () => {
 
     return (
-        <div className="h-[10vh] border-b-[.1px] pb-5  border-[#fdfdfd] flex items-center justify-evenly text-white flex-wrap mx-9">
+        <div className="h-[10vh] md:border-b-[.1px]   border-[#fdfdfd] flex items-center justify-evenly text-white flex-wrap mx-9">
             <div className="flex items-center gap-2 text-2xl">
                 <img src={navLogo} alt="kunalborkar2001@gmail.com" />
                 <p>QuillAudits</p>
