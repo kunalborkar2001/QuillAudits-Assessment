@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import gsap from "gsap"
+import { useGSAP } from "@gsap/react";
 
 import Navbar from '../../Components/Navbar/Navbar'
 import miniImg from '../../assets/miniImg.png'
@@ -6,6 +8,30 @@ import BreadCrumbs from '../../Components/BreadCrumbs/BreadCrumbs'
 
 
 const Landing = () => {
+    useGSAP(() => {
+        // gsap code here...
+        gsap.from(".landingAnimate", { x: 360, duration: 2 }); // <-- automatically reverted
+        gsap.to(".landingAnimate", { x: 0 }); // <-- automatically reverted
+
+    }, {});
+
+
+
+    // useEffect(() => {
+    //     gsap.from("", {
+    //         y: 500,
+    //         x: 100,
+    //         duration: 1
+    //     });
+    //     gsap.to(".landingAnimate", {
+    //         rotate: 0,
+    //         y: 0,
+    //         x: 0,
+    //         duration: 1,
+
+    //     });
+    // }, []);
+
     return (
         <div className='bg-gradient-to-r from-[#232f74] to-[#091039]'>
             <Navbar />
@@ -30,7 +56,7 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className='flex justify-center ml-3 flex-col p-2 sm:mt-0 mt-[50px]'>
-                    <h1 className='text-[2.5rem] '>Securing Trust : Boosting <br /> Security and Strengthening <br /> Trust at Carpe Diem Pension</h1>
+                    <h1 className='text-[2.5rem] landingAnimate'>Securing Trust : Boosting <br /> Security and Strengthening <br /> Trust at Carpe Diem Pension</h1>
                     <p className='text-[gray] text-[1.2rem] mt-2'>QuillAudits enhances Carpe Diem Pension by <br />addressing 33 vulnerabilities on the Pulse blockchain,<br /> boosting security and user trust in digital pensions.</p>
                 </div>
             </div>

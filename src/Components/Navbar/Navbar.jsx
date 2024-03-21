@@ -1,14 +1,32 @@
 
 import navLogo from "../../assets/navLogo.svg"
 import NavDrawer from "../NavDrawer/NavDrawer"
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 
 
 const Navbar = () => {
 
+    useGSAP(() => {
+        // use selectors...
+        // gsap.to("#navLogo", { rotation: "+=360", duration: 3 });
+        gsap.to("#navLogo", {
+            rotation: 360,
+            repeat: -1,
+            repeatDelay: 1,
+            yoyo: true
+        });
+
+
+    },
+        {}
+    ); // <-- scope for selector text (optional)
+
     return (
         <div className="h-[10vh] md:border-b-[.1px]   border-[#fdfdfd] flex items-center justify-evenly text-white flex-wrap mx-9">
             <div className="flex items-center gap-2 text-2xl">
-                <img src={navLogo} alt="kunalborkar2001@gmail.com" />
+                <img src={navLogo} alt="kunalborkar2001@gmail.com" id="navLogo" />
                 <p>QuillAudits</p>
             </div>
             <div>
